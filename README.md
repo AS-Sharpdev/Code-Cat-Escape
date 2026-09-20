@@ -545,9 +545,9 @@ https://www.youtube.com/@AS-Sharpdev
 
 📜 License
 
-No specific open-source license has been added to this repository yet.
+This project is licensed under the MIT License.
 
-Please check the repository before redistributing the project or using the assets in other projects.
+See the [LICENSE](LICENSE) file for the complete license text.
 
 🐱 Save the Cat!
 
