@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Which keyword checks a condition?",
+    "code": "if (score > 100) { }",
+    "answers": ["for", "if", "class"],
+    "correctAnswer": 1,
+    "category": "Conditions",
+    "explanation": "The if keyword checks whether a condition is true."
+  },
+  {
+    "question": "Which keyword creates a new object?",
+    "code": "var player = new Player();",
+    "answers": ["class", "new", "object"],
+    "correctAnswer": 1,
+    "category": "C# Basics",
+    "explanation": "The new keyword creates an object instance."
+  },
+  {
+    "question": "What type is used to store text?",
+    "code": "string name = \"Alice\";",
+    "answers": ["int", "bool", "string"],
+    "correctAnswer": 2,
+    "category": "Variables",
+    "explanation": "string is used to store text."
+  },
+  {
+    "question": "What does this loop print first?",
+    "code": "for (int i = 0; i < 3; i++)",
+    "answers": ["0", "1", "3"],
+    "correctAnswer": 0,
+    "category": "Loops",
+    "explanation": "The loop starts with i equal to 0."
+  },
+  {
+    "question": "How many times does this loop run?",
+    "code": "for (int i = 0; i < 3; i++)",
+    "answers": ["2", "3", "4"],
+    "correctAnswer": 1,
+    "category": "Loops",
+    "explanation": "The values are 0, 1 and 2, so the loop runs three times."
+  },
+  {
+    "question": "What is the result of 5 / 2 with integers?",
+    "code": "int result = 5 / 2;",
+    "answers": ["2", "2.5", "3"],
+    "correctAnswer": 0,
+    "category": "Operators",
+    "explanation": "Integer division drops the decimal part, so the result is 2."
+  },
+  {
+    "question": "Which keyword returns a value from a method?",
+    "code": "return score;",
+    "answers": ["return", "break", "value"],
+    "correctAnswer": 0,
+    "category": "Methods",
+    "explanation": "return sends a value back from a method."
+  },
+  {
+    "question": "Which keyword defines a class?",
+    "code": "public class Player { }",
+    "answers": ["object", "class", "type"],
+    "correctAnswer": 1,
+    "category": "OOP",
+    "explanation": "The class keyword defines a class."
+  },
+  {
+    "question": "What does bool normally store?",
+    "code": "bool gameOver = false;",
+    "answers": ["A number", "Text", "True or false"],
+    "correctAnswer": 2,
+    "category": "Variables",
+    "explanation": "A bool stores either true or false."
+  },
+  {
+    "question": "Which collection can store many values?",
+    "code": "List<string> names = new();",
+    "answers": ["List", "bool", "int"],
+    "correctAnswer": 0,
+    "category": "Collections",
+    "explanation": "List<T> is a collection that can store multiple values."
+  },
+  {
+    "question": "What does .Length give you for a string?",
+    "code": "string text = \"Cat\";",
+    "answers": ["The number of characters", "The last character", "A bool"],
+    "correctAnswer": 0,
+    "category": "Strings",
+    "explanation": "Length gives the number of characters in the string."
+  },
+  {
+    "question": "Which keyword repeats code while a condition is true?",
+    "code": "while (lives > 0) { }",
+    "answers": ["while", "switch", "using"],
+    "correctAnswer": 0,
+    "category": "Loops",
+    "explanation": "while repeats a block as long as its condition is true."
+  },
+  {
+    "question": "What does == compare?",
+    "code": "if (score == 100) { }",
+    "answers": ["Values", "Files", "Methods"],
+    "correctAnswer": 0,
+    "category": "Conditions",
+    "explanation": "== checks whether two values are equal."
+  },
+  {
+    "question": "Which keyword is used to make a method asynchronous?",
+    "code": "public async Task LoadAsync() { }",
+    "answers": ["await", "async", "Task"],
+    "correctAnswer": 1,
+    "category": "Async",
+    "explanation": "The async keyword marks a method as asynchronous."
+  },
+  {
+    "question": "Which keyword waits for an asynchronous result?",
+    "code": "var data = await LoadAsync();",
+    "answers": ["async", "await", "wait"],
+    "correctAnswer": 1,
+    "category": "Async",
+    "explanation": "await waits for an asynchronous operation to finish."
+  }
+]
